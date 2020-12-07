@@ -1,2 +1,4 @@
 # DecentralizedCommerce
-An Incentive-Compatible Smart Contract for Decentralized ommerce
+##An Incentive-Compatible Smart Contract for Decentralized Commerce
+
+We propose a smart contract that allows two mutually distrusting parties to transact any non-digital good or service on a blockchain. The contract acts as an escrow and settles disputes by letting parties wager that they can convince an arbiter they were the honest party. We analyze the contract as an extensive-form game and prove that the honest strategy is secure in a strong game-theoretic sense if and only if the arbiter is biased in favor of honest parties. This remains true for a generalization of the contract with different ways of paying back the wagers, and we can instantiate it to make a tradeoff between security and the size of the wager. By relaxing the security notion such that parties have only weak incentive to behave honestly, we can replace the arbiter by a random coin toss protocol. We implement the contract in Ethereum and estimate the amortized cost of running the contract to be 1-2 USD for the seller and 2-3 USD for the buyer, regardless of whether or not there is a dispute.
